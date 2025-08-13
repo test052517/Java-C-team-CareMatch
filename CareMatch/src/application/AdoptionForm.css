@@ -1,0 +1,101 @@
+/* JavaFX CSS - corrected */
+
+/* 기본 버튼 스타일 (모든 Button에 적용) */
+.button {
+    -fx-background-color: #F27D16;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* 제출 버튼(추가 클래스) */
+.submit-button {
+    -fx-background-color: #F27D16;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 6;
+}
+
+.submit-button:hover {
+    -fx-background-color: #F27D16;
+}
+
+/* 텍스트필드, 텍스트에어리어 (기본 클래스 이름: text-field, text-area) */
+.text-field, .text-area {
+    -fx-background-color: #FFFCF5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 10 6 10;
+    -fx-background-radius: 5;
+    -fx-border-color: #E6D9C5;
+    -fx-border-width: 1;
+}
+
+/* 모든 기본 라벨 */
+.label {
+    -fx-font-family: 'Nanum Gothic';
+    -fx-font-size: 14px;
+    -fx-text-fill: #5A3222;
+    -fx-font-weight: bold;
+}
+
+/* 섹션 제목 */
+.section-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5A3222;
+    
+}
+
+/* 입양신청 폼 전용 스타일 */
+.title-label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-background-color: #F27D16;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-pref-width: 560px; /* dialog 내부 여백 고려 */
+    -fx-alignment: center;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-label-padding: 0 0 0 0;
+}
+
+.animal-label {
+    -fx-font-size: 14px;
+    -fx-padding: 8 0 15 0;
+    -fx-text-fill: #5A3222;
+}
+
+.agree-check {
+    -fx-padding: 10 0 0 0;
+}
+
+.agree-note {
+    -fx-text-fill: #555;
+    -fx-font-size: 13px;
+    -fx-padding: 5 0 15 0;
+    -fx-font-style: italic;
+}
+
+/* 루트 배경/폰트 */
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: 'Nanum Gothic', 'Malgun Gothic', sans-serif;
+    -fx-text-fill: #4b3521;
+}
+
+.label{
+	-fx-font-weight: bold;	
+}
+
+.promise {
+    -fx-text-fill: #333;
+    -fx-font-style: italic;
+    -fx-padding: 10px 0 10px 0;
+}

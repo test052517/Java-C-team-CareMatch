@@ -2,7 +2,7 @@
 
 .root {
     -fx-background-color: #FFFFFF;
-    -fx-font-family: 'Pretendard Medium';
+    -fx-font-family: 'Pretendard Medium'; 
     -fx-font-size: 14px;
 }
 
@@ -16,7 +16,7 @@
     -fx-border-insets: 0;
 }
 
-.menu-Label {
+.menu-button {
     -fx-background-color: transparent;
     -fx-text-fill: #5A3222;
     -fx-font-size: 14px;
@@ -26,7 +26,7 @@
     -fx-cursor: hand;
 }
 
-.menu-Label:hover {
+.menu-button:hover {
     -fx-background-color: #FFFCF5;
     -fx-text-fill: #8d4d25;
 }
@@ -163,99 +163,4 @@
 
 .combo-box .list-cell {
     -fx-text-fill: #B39F97;
-}
-
-.Form-label {
-    -fx-text-fill: #5A3222;
-    -fx-font-weight: bold;
-    -fx-padding: 0 0 4 2;
-    -fx-font-size: 16px;
-    -fx-font-family: 'Pretendard Medium'; 
-}
-
-.text-field {
-    -fx-background-color: #FFFCF5;
-    -fx-border-color: #C3B4AE;
-    -fx-border-radius: 8;
-    -fx-background-radius: 8;
-    -fx-padding: 10 15;
-    -fx-prompt-text-fill: #B39F97;
-    -fx-text-fill: #B39F97;
-    -fx-font-size: 14px;
-}
-
-.combo-box2 {
-    -fx-pref-width: 100%;  
-    -fx-background-color: #FFFCF5;
-    -fx-border-color: #C3B4AE;
-    -fx-border-radius: 8;
-    -fx-background-radius: 8;
-    -fx-font-size: 14px;
-    -fx-text-fill: #B39F97;
-    -fx-padding: 6 10;
-}
-
-/* 콤보박스 내부 항목 */
-.combo-box2 .list-cell {
-    -fx-text-fill: #B39F97;
-}
-
-/* 콤보박스 버튼 */
-.combo-box2 .arrow-button {
-    -fx-background-color: transparent;
-}
-
-/* DatePicker 기본 스타일 (공통 크기 적용) */
-.date-picker {
-    -fx-background-color: #FFFCF5;
-    -fx-border-color: #C3B4AE;
-    -fx-border-radius: 8;
-    -fx-background-radius: 8;
-    -fx-font-size: 14px;
-    -fx-text-fill: #5A3222;
-    -fx-padding: 11 10;
-}
-
-/* DatePicker 내부 TextField */
-.date-picker > .text-field {
-    -fx-background-color: transparent;
-    -fx-border-width: 0;
-    -fx-padding: 0 15;
-    -fx-text-fill: #5A3222;
-    -fx-prompt-text-fill: #B39F97;
-}
-
-.date-picker > .arrow-button {
-    -fx-background-color: transparent;
-    -fx-background-radius: 0;
-    -fx-padding: 0 10;
-}
-
-.Form-button {
-    -fx-background-color: #5A3222;
-    -fx-text-fill: white;
-    -fx-font-family: 'Pretendard Bold'; 
-    -fx-padding: 12 20;
-    -fx-background-radius: 8;
-    -fx-cursor: hand;
-    -fx-font-size: 15px;
-    -fx-pref-width: 345px;      
-    -fx-pref-height: 43px;
-}
-
-.button-container {
-    -fx-alignment: center;
-    -fx-padding: 30 0 0 0;  /* 위쪽 패딩 */
-}
-
-.Orange-Btn {
-	-fx-background-color: #F27D16;
-	-fx-text-fill: white;
-	-fx-background-radius: 8;
-}
-
-.Brown-Btn {
-	-fx-background-color: #5A3222;
-	-fx-text-fill: white;
-	-fx-background-radius: 8;
 }

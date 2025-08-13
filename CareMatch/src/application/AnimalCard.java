@@ -3,6 +3,8 @@ package application;
 import javafx.geometry.Pos;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.MenuButton;
+import javafx.scene.control.MenuItem;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
@@ -61,6 +63,7 @@ public class AnimalCard extends HBox {
         VBox statusBox = new VBox(statusDropdown);
         statusBox.setAlignment(Pos.TOP_RIGHT);
         HBox.setHgrow(statusBox, Priority.ALWAYS);  
+        this.setHgrow(statusBox, Priority.ALWAYS);
 
         this.getChildren().addAll(imageView, textBox, statusBox);
     }
