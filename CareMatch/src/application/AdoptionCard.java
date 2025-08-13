@@ -67,6 +67,25 @@ public class AdoptionCard extends HBox {
         scheduleVisitBtn.getStyleClass().add("Brown-Btn");
         scheduleVisitBtn.setPrefWidth(120);
         
+        checkApplicationBtn.setOnAction(e -> {
+            ManagerAdoptionApplicationForm form = new ManagerAdoptionApplicationForm();
+            form.show(
+            	adoption.getAnimalName(),    // 동물 이름
+            	adoption.getApplicantName(),     // 신청인
+            	adoption.getApplyDate()      // 신청일 (String)
+            );
+        });
+        
+        scheduleVisitBtn.setOnAction(e -> {
+        	ManagerVisitApplicationForm form = new ManagerVisitApplicationForm();
+            form.show(
+            	adoption.getAnimalName(),    
+            	adoption.getApplicantName(),   
+            	adoption.getApplyDate(), // 임의 값(나중에 DB 연동)
+            	adoption.getVisitDate()   // 임의 값(나중에 DB 연동)
+            );
+        });
+        
         VBox rightBox = new VBox(10);
         rightBox.setAlignment(Pos.TOP_RIGHT);
         

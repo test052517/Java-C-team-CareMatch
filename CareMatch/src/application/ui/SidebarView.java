@@ -33,7 +33,7 @@ public class SidebarView extends VBox {
 
         // "관리메뉴" 라벨
         Label menuTitle = new Label("관리메뉴");
-        menuTitle.setStyle("-fx-font-family: Pretendard Bold; -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #5A3222;");
+        menuTitle.getStyleClass().add("menu-Title");
         menuTitle.setAlignment(Pos.CENTER_LEFT);
 
         // 메뉴 항목

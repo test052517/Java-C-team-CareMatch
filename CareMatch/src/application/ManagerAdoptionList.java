@@ -17,7 +17,7 @@ public class ManagerAdoptionList {
 	// 정렬 상태 저장
 	private boolean isApplyDateAsc = true;
 	private boolean isVisitDateAsc = true;
-	private int statusFilterIndex = -1; // -1이면 전체 보기
+	private int statusFilterIndex = -1; 
 
 	private static final List<String> statusOrder = Arrays.asList(
 	    "승인 미완료", "입양 승인", "방문 예약", "입양 완료"
@@ -96,7 +96,7 @@ public class ManagerAdoptionList {
 	                ? a.getApplyDate().compareTo(b.getApplyDate())
 	                : b.getApplyDate().compareTo(a.getApplyDate());
 	        });
-	        updateApplicationList(applications); // 리스트 뷰 갱신
+	        updateApplicationList(applications); 
 	    });
 
 	    sortVisitDate.setOnMouseClicked(e -> {
@@ -113,7 +113,7 @@ public class ManagerAdoptionList {
 	    sortStatus.setOnMouseClicked(e -> {
 	        statusFilterIndex++;
 	        if (statusFilterIndex >= statusOrder.size()) {
-	            statusFilterIndex = -1; // 전체 보기로 초기화
+	            statusFilterIndex = -1; 
 	        }
 
 	        String label = (statusFilterIndex == -1)

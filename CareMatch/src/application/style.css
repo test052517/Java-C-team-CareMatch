@@ -16,6 +16,13 @@
     -fx-border-insets: 0;
 }
 
+.menu-Title {
+	-fx-font-family: Pretendard Bold;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #5A3222;
+}
+
 .menu-Label {
     -fx-background-color: transparent;
     -fx-text-fill: #5A3222;
@@ -184,6 +191,13 @@
     -fx-font-size: 14px;
 }
 
+.text-field:disabled,
+.text-area:disabled {
+    -fx-opacity: 1.0;
+    -fx-text-fill: #B39F97;
+    -fx-background-color: #FFFCF5;
+}
+
 .combo-box2 {
     -fx-pref-width: 100%;  
     -fx-background-color: #FFFCF5;
@@ -220,7 +234,7 @@
 .date-picker > .text-field {
     -fx-background-color: transparent;
     -fx-border-width: 0;
-    -fx-padding: 0 15;
+    -fx-padding: 0 10 0 10;
     -fx-text-fill: #5A3222;
     -fx-prompt-text-fill: #B39F97;
 }
@@ -229,6 +243,13 @@
     -fx-background-color: transparent;
     -fx-background-radius: 0;
     -fx-padding: 0 10;
+}
+
+.date-picker:disabled,
+.date-picker:disabled > .text-field {
+    -fx-opacity: 1.0; 
+    -fx-text-fill: #B39F97; 
+    -fx-background-color: #FFFCF5; 
 }
 
 .Form-button {
@@ -258,4 +279,79 @@
 	-fx-background-color: #5A3222;
 	-fx-text-fill: white;
 	-fx-background-radius: 8;
+}
+
+.text-area {
+	-fx-background-color: #FFFCF5;
+    -fx-border-color: #C3B4AE;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10 10 10 10;
+    -fx-prompt-text-fill: #B39F97;
+    -fx-text-fill: #B39F97;
+    -fx-font-size: 14px;
+}
+
+.text-area .content {
+    -fx-background-color: transparent; 
+}
+
+.text-area:disabled {
+    -fx-opacity: 1.0;
+    -fx-text-fill: #B39F97;
+    -fx-background-color: #FFFCF5;
+}
+
+.text-area:disabled .content {
+    -fx-background-color: transparent;
+}
+
+.Orange-Btn-Form {
+	-fx-pref-width: 117px; 
+    -fx-pref-height: 43px;  
+    -fx-font-size: 15px;   
+    -fx-font-family: 'Pretendard Bold';
+	-fx-background-color: #F27D16;
+	-fx-text-fill: white;
+	-fx-background-radius: 8;
+}
+
+.Brown-Btn-Form {
+	-fx-pref-width: 117px; 
+    -fx-pref-height: 43px;  
+    -fx-font-size: 15px;   
+    -fx-font-family: 'Pretendard Bold';
+	-fx-background-color: #5A3222;
+	-fx-text-fill: white;
+	-fx-background-radius: 8;
+}
+
+.radio .radio-button {
+	-fx-font-size: 13px;
+	-fx-text-fill: #5A3222;
+	-fx-background-color: white;
+	-fx-alignment: center; 
+    -fx-border-color: #5A3222;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #FFFCF5;
+    -fx-border-color: #5A3222;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.radio-button:selected .radio > .dot {
+    -fx-background-color: #5A3222;
+    -fx-background-radius: 10;
+    -fx-padding: 4;
+}
+
+.radio-container {
+    -fx-font-size: 13px;
+    -fx-text-fill: #5A3222;
 }
