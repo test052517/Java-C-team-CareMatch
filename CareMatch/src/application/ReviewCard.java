@@ -8,7 +8,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 
 public class ReviewCard extends HBox {
-
     public ReviewCard(Review review) {
         this.getStyleClass().add("animal-card");
         this.setSpacing(20);
