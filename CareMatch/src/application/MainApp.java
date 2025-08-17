@@ -12,6 +12,7 @@ public class MainApp extends Application {
         // 페이지 등록
         SceneManager.registerView("mainList", () -> new ManagerMainList().getView());
         SceneManager.registerView("adoptionList", () -> new ManagerAdoptionList().getView());
+        SceneManager.registerView("reviewList", () -> new ManagerReviewList().getView());
 
         // 초기 화면
         SceneManager.switchTo("mainList");

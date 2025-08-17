@@ -37,12 +37,14 @@ public class ManagerAdoptionList {
 		// Sidebar 불러오기 (클래스 분리)
 		root.setLeft(new SidebarView());
 	
+		applicationListView.getStyleClass().add("application-list");
+		
 	    // 스크롤 패널
 	    ScrollPane scrollPane = new ScrollPane();
 	    scrollPane.setContent(applicationListView);
 	    scrollPane.setFitToWidth(true);
 
-	    // 상단 헤더 (제목 + 등록 버튼)
+	    // 상단 헤더
 	    HBox header = new HBox();
 	    header.setPadding(new Insets(10));
 	    header.setAlignment(Pos.CENTER_LEFT);

@@ -45,6 +45,7 @@ public class SidebarView extends VBox {
         
         mainLabel.setOnMouseClicked(e -> SceneManager.switchTo("mainList"));
         applyLabel.setOnMouseClicked(e -> SceneManager.switchTo("adoptionList"));
+        reviewLabel.setOnMouseClicked(e -> SceneManager.switchTo("reviewList"));
 
         // 로그아웃 버튼
         Button logoutBtn = new Button("로그아웃");

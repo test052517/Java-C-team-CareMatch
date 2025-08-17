@@ -86,7 +86,6 @@ public class ManagerAdoptionApplicationForm {
         Scene scene = new Scene(root, 450, 650);
         scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         
-        stage.setTitle("입양 신청서 확인");
         stage.setScene(scene);
         stage.initModality(Modality.APPLICATION_MODAL); 
         stage.show();

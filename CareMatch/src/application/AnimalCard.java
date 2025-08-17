@@ -9,7 +9,6 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 
 public class AnimalCard extends HBox {
-
     public AnimalCard(Animal animal) {
         this.getStyleClass().add("animal-card");
         this.setSpacing(20);

@@ -13,8 +13,6 @@ public class AdoptionCard extends HBox {
 	private Runnable onStatusChanged; 
 	
     public AdoptionCard(Adoption adoption) {
-    	// this.onStatusChanged = onStatusChanged;
-    	
     	this.getStyleClass().add("animal-card");
         this.setSpacing(20);
         

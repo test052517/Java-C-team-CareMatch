@@ -43,6 +43,16 @@
     -fx-padding: 0 20 0 0;
 }
 
+.application-list {
+	-fx-background-color: transparent;
+    -fx-padding: 0 20 0 0; 
+}
+
+.review-list {
+	-fx-background-color: transparent;
+    -fx-padding: 0 20 0 0; 
+}
+
 .animal-card {
     -fx-background-color: #fff;
     -fx-border-color: #e0d2c1;
@@ -354,4 +364,25 @@
 .radio-container {
     -fx-font-size: 13px;
     -fx-text-fill: #5A3222;
+}
+
+.likes-label {
+	-fx-text-fill: #5A3222;
+    -fx-font-size: 14px;
+}
+
+.Orange-Btn2{
+	-fx-background-color: #F27D16;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+    -fx-padding: 6 12;
+	-fx-background-radius: 8;
+}
+
+.Brown-Btn2 {
+	-fx-background-color: #5A3222;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+    -fx-padding: 6 12;
+	-fx-background-radius: 8;
 }

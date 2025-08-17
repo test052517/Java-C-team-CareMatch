@@ -8,8 +8,8 @@ public class Animal {
     private String type;
     private int age;
     private double weight;
-    private String gender;       // "남" 또는 "여"
-    private boolean neutered;    // 중성화 여부 boolean
+    private String gender;      
+    private boolean neutered;   
     private LocalDate admissionDate;
     private String status;
 
