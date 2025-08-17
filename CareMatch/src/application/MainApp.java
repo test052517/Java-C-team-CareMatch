@@ -13,6 +13,7 @@ public class MainApp extends Application {
         SceneManager.registerView("mainList", () -> new ManagerMainList().getView());
         SceneManager.registerView("adoptionList", () -> new ManagerAdoptionList().getView());
         SceneManager.registerView("reviewList", () -> new ManagerReviewList().getView());
+        SceneManager.registerView("statsList", () -> new ManagerStatsPage().getView());
 
         // 초기 화면
         SceneManager.switchTo("mainList");

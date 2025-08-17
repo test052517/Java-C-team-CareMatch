@@ -40,18 +40,19 @@ public class SidebarView extends VBox {
         Label mainLabel = createSidebarLabel("Main List", "icon-home.png");
         Label applyLabel = createSidebarLabel("입양 신청 관리", "icon-apply.png");
         Label reviewLabel = createSidebarLabel("후기 게시판 관리", "icon-review.png");
-        Label pageLabel = createSidebarLabel("통계 페이지", "icon-stats.png");
+        Label statsLabel = createSidebarLabel("통계 페이지", "icon-stats.png");
         Label qnaLabel = createSidebarLabel("문의 관리", "icon-qna.png");
         
         mainLabel.setOnMouseClicked(e -> SceneManager.switchTo("mainList"));
         applyLabel.setOnMouseClicked(e -> SceneManager.switchTo("adoptionList"));
         reviewLabel.setOnMouseClicked(e -> SceneManager.switchTo("reviewList"));
+        statsLabel.setOnMouseClicked(e -> SceneManager.switchTo("statsList"));
 
         // 로그아웃 버튼
         Button logoutBtn = new Button("로그아웃");
         logoutBtn.getStyleClass().add("logout-button");
 
-        VBox topSection = new VBox(10, logoBox, menuTitle, mainLabel, applyLabel, reviewLabel, pageLabel, qnaLabel);
+        VBox topSection = new VBox(10, logoBox, menuTitle, mainLabel, applyLabel, reviewLabel, statsLabel, qnaLabel);
         topSection.setAlignment(Pos.TOP_LEFT);
         VBox.setVgrow(topSection, Priority.ALWAYS);
 

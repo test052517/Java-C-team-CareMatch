@@ -373,7 +373,7 @@
 
 .Orange-Btn2{
 	-fx-background-color: #F27D16;
-	-fx-text-fill: white;
+	-fx-text-fill: #FFFFFF;
 	-fx-font-size: 14px;
     -fx-padding: 6 12;
 	-fx-background-radius: 8;
@@ -381,8 +381,24 @@
 
 .Brown-Btn2 {
 	-fx-background-color: #5A3222;
-	-fx-text-fill: white;
+	-fx-text-fill: #FFFFFF;
 	-fx-font-size: 14px;
     -fx-padding: 6 12;
 	-fx-background-radius: 8;
+}
+
+.sub-section-title {
+	-fx-font-family: Pretendard Bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.chart-Box {
+	-fx-background-color: #FFFCF5;
+	-fx-background-radius: 8;
+}
+
+.title-Bar {
+	-fx-background-color: #F27D16;
+	-fx-background-radius: 10 10 0 0;
 }
