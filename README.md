@@ -27,3 +27,5 @@ SpeciesDAO: 새로운 품종 추가, 품종 ID로 정보 조회, 모든 품종 �
 UsersDAO: 새로운 사용자 추가, 사용자 ID로 정보 조회, 사용자 정보 수정, 특정 사용자 삭제
 
 VisitDAO: 새로운 방문 예약 추가, 방문 ID로 정보 조회, 특정 사용자의 모든 방문 예약 조회, 방문 예약 상태 수정, 특정 방문 예약 삭제
+
+++module-info.java 파일에 "requires java.sql;" 추가
