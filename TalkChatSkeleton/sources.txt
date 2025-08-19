@@ -1,0 +1,16 @@
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\ChatWindow.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\ClientApp.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\LoginWindow.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\MessageBubble.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\TalkAWT.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\TalkListFrame.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\TalkRoomFrame.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\Theme.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\client\ui\UIStyle.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\common\DB.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\common\KV.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\common\Protocol.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\server\ClientHandler.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\server\TalkServer.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\server\dao\ChatDAO.java
+C:\Java\myJava\TalkChatSkeleton\src\Talk\server\dao\UserDAO.java
