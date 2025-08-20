@@ -1,0 +1,166 @@
+/* style.css */
+
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: 'Pretendard Medium'; 
+    -fx-font-size: 14px;
+}
+
+.sidebar {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-min-width: 180px;
+    -fx-border-color: transparent #C3B4AE transparent transparent;
+    -fx-border-width: 0 1px 0 0;
+    -fx-border-insets: 0;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5A3222;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-content-display: left;
+    -fx-graphic-text-gap: 8px; 
+    -fx-cursor: hand;
+}
+
+.menu-button:hover {
+    -fx-background-color: #FFFCF5;
+    -fx-text-fill: #8d4d25;
+}
+
+.animal-list {
+    -fx-background-color: transparent;
+    -fx-padding: 0 20 0 0;
+}
+
+.animal-card {
+    -fx-background-color: #fff;
+    -fx-border-color: #e0d2c1;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-spacing: 10px;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.label:focused, .button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.animal-card:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.card-title {
+	-fx-font-family: 'Pretendard ExtraBold';
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #5A3222;
+}
+
+.card-info {
+    -fx-text-fill: #B39F97;
+    -fx-font-size: 12px;
+}
+
+.sort-bar-container {
+    -fx-background-color: #FFFCF5;
+    -fx-border-color: #C3B4AE;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.sort-label {
+    -fx-text-fill: #5A3222; 
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.register-button {
+    -fx-background-color: #5A3222;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 8px;
+}
+
+.logout-button {
+    -fx-background-color: #5A3222;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 8px;
+}
+
+.title {
+	-fx-font-family: 'Pretendard ExtraBold'; 
+	-fx-font-size: 30px;
+	-fx-text-fill: #5A3222;
+}
+
+/* 스크롤바 배경 및 너비 설정 */
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+/* 수직 스크롤바 트랙 (배경) */
+.scroll-pane .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* 수직 스크롤바 썸 (움직이는 바) */
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #C3B4AE;
+    -fx-background-radius: 8;
+}
+
+/* 수평 스크롤바 트랙 (배경) */
+.scroll-pane .scroll-bar:horizontal .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* 수평 스크롤바 썸 */
+.scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: #C3B4AE;
+    -fx-background-radius: 8;
+}
+
+/* 스크롤바 버튼 제거 (위/아래 화살표 등) */
+.scroll-pane .increment-button,
+.scroll-pane .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-shape: "";
+}
+
+.combo-box {
+    -fx-background-color: #FFFCF5;
+    -fx-border-color: #C3B4AE;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-fill: #5A3222;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #B39F97;
+}
