@@ -1,1 +1,0 @@
-Use your existing schema/reset SQL.
